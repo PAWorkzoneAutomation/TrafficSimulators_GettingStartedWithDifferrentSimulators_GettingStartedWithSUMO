@@ -44,7 +44,7 @@ The work in this area includes information of SUMO installation. Please note tha
       This wiki page presents the information of SUMO installation.
     </li>
   </ul>
-</details>>
+</details>
 <a href="#table-of-contents">Back to top</a>
 
 # Basic operations in SUMO
