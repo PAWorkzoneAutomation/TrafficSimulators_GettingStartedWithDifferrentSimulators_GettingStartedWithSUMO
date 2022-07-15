@@ -1,10 +1,10 @@
-# TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithCARLA
+# TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO
 
 
 <p align="center">
-<img src="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithCARLA/blob/main/Documents/Images/CARLA_day.png" alt="Traffic Simulators" width="960" height="486">
+<img src="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/Images/SUMODemo2.png" alt="SUMO" width="960" height="486">
 </p>
-Welcome to the GettingStartedWithCARLA wiki! The goal of this wiki is to get users started with CARLA, an open-source simulator for autonomous driving research. 
+Welcome to the GettingStartedWithSUMO wiki! The goal of this wiki is to get users started with Eclipse SUMO (Simulation of Urban MObility), an open source, highly portable, microscopic and continuous multi-modal traffic simulation package designed to handle large networks.
 
 ***
 
@@ -14,153 +14,93 @@ Welcome to the GettingStartedWithCARLA wiki! The goal of this wiki is to get use
   <summary> Click to see/unsee </summary>
   <ol>
     <li>
-        <a href="#carla-machine-hardware-settings">CARLA machine hardware settings </a>
-        The work in this area includes information of CARLA machine hardware settings.
+        <a href="#how-to-install-sumo">How to install SUMO?</a>
+        The work in this area includes information to guide how to install SUMO. 
     </li>
     <li>
-        <a href="#how-to-install-carla">How to install CARLA?</a>
-        The work in this area includes information to guide how to install CARLA. 
+        <a href="#basic-operations-in-sumo">Basic operations in SUMO</a> 
+        The work in this area involves basic operations in SUMO, including how to build a simple road network and run a simulation, how to export simulation results etc.
     </li>
     <li>
-        <a href="#how-to-run-a-simple-simulation-in-carla">How to run a simple simulation in CARLA?</a> 
-        The work in this area involves information to guide how to ru n a simple simulation in CARLA.
-    </li>
-    <li>
-        <a href="#understanding-more-features-in-carla">Understanding more features in CARLA.</a>
-        The work in this area includes information to guide users to understand more features in CARLA, such as how to control the surrounding traffic, how to run CARLA in synchronized mode etc. 
-    </li>
-    <li>
-        <a href="#advanced-topics-in-carla">Advanced topics in CARLA</a>
-        The work in this area involves advanced topics in CARLA, including how to import a customized map into CARLA. 
-    </li>
-    <li>
-        <a href="#testing-the-limits-of-carla">Testing the limits of CARLA.</a>
-        The work in the area includes tests to check the limits of CARLA, including the finest time measurements in CARLA, repeatability tests in CARLA etc. 
-    </li>
-    
+        <a href="#talking-with-external-programs">Talking with external programs</a>
+        The work in this area involves work using external programs, including how to talk with external programs using API, how to command an AV at a position, how to command a trajectory to an AV, how to command a trajectory to an AV etc. 
+    </li>    
   </ol>
 </details>
 
 <a href="#table-of-contents">Back to top</a>
 
 ***
-# CARLA machine hardware settings
-The work in this area includes information of CARLA machine hardware settings.
+# How to install SUMO
+The work in this area includes information of SUMO installation. Please note that SUMO is not heavy, so there is no strict requirements of machine hardware.
 <details closed> 
   <summary> Click to see/unsee </summary>
   <ul>
     <li>
-      <a href="https://github.com/ivsg-psu/Hardware_SimulatorHardwareBuilds_CARLAMachineHarewareSettings">
-      CARLA machine hardware settings 
+      <a href="https://sumo.dlr.de/docs/Downloads.php">
+      How to install SUMO
       </a>
       <br>
-      This wiki page presents the information of the hardware settings for CARLA computer .
+      This wiki page presents the information of SUMO installation.
     </li>
   </ul>
 </details>>
 <a href="#table-of-contents">Back to top</a>
 
-# How to install CARLA
-
+# Basic operations in SUMO
+The work in this area involves basic operations in SUMO, including how to build a simple road network and run a simulation, how to export simulation results etc.
 <details closed> 
   <summary> Click to see/unsee </summary>
   <ul>
     <li>
-      <a href="https://www.python.org/downloads/">
-      Installation of python3 
+      <a href="https://sumo.dlr.de/docs/Tutorials/Hello_World.html">
+      Building a simple road network
       </a>
       <br>
-      This is the link for python3 installation. 
+      This is the link instructing how to build a road network in SUMO and run the simulation. This is well described in SUMO official tutorial so it is referenced. 
     </li>
     <li>
-      <a href="https://github.com/ivsg-psu/DrivingSimulators_VirtualEnvironment_SetupCARLA">
-      How to install CARLA
+      <a href="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/How%20to%20export%20SUMO%20simulation%20results.pptx">
+      How to export SUMO simulation results. 
       </a>
       <br>
-      This wiki page presents the work to guide how to install CARLA. 
+      This wiki page presents the work instructing how to export SUMO simulation results. 
     </li>
   </ul>
 </details>
 
 <a href="#table-of-contents">Back to top</a>
 
-# How to run a simple simulation in CARLA
-The work in this area involves information to guide how to run a simple simulation in CARLA.
+# Talking with external programs
+The work in this area involves work using external programs, including how to talk with external programs using API, how to command an AV at a position, how to command a trajectory to an AV etc.
 <details closed> 
   <summary> Click to see/unsee </summary>
   <ul>
     <li>
-      <a href="https://github.com/ivsg-psu/DrivingSimulators_Miscellaneous_SimpleSimulationInCARLA">
-     How to run a simple simulation in CARLA
+      <a href="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/How%20to%20talk%20to%20SUMO%20through%20python%20API.pptx">
+    How to talk with external programs using API
       </a>
       <br>
-    The work in this area involves information to guide how to run a simple simulation in CARLA.
+    The work in this area involves information to guide how to talk with external programs using API
     </li>
+    <li>
+      <a href="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/How%20to%20command%20an%20AV%20at%20a%20position.pptx">
+    How to command an AV at a position
+      </a>
+      <br>
+    The work in this area involves information to guide how to command an AV at a position
+    </li>  
+    <li>
+      <a href="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/How%20to%20command%20a%20trajectory%20to%20an%20AV.pptx">
+    How to command a trajectory to an AV
+      </a>
+      <br>
+    The work in this area involves information to guide how to command a trajectory to an AV
+    </li>     
   </ul>
 </details>
 <a href="#table-of-contents">Back to top</a>
 
-# Understanding more features in CARLA
-The work in this area includes information to guide users to understand more features in CARLA, such as how to control the surrounding traffic, how to run CARLA in synchronized mode etc. 
-<details closed> 
-  <summary> Click to see/unsee </summary>
-  <ul>
-    <li>
-      <a href="https://github.com/ivsg-psu/DrivingSimulators_Miscellaneous_CARLATrafficManager">
-     How to control the surrounding traffic.
-      </a>
-      <br>
-    The work in this area involves information to guide how to control the surrounding traffic in CARLA.
-    </li>
-    <li>
-      <a href="https://github.com/ivsg-psu/DrivingSimulators_Miscellaneous_CARLASynchronizedMode">
-     How to run CARLA in synchronized mode.
-      </a>
-      <br>
-    The work in this area involves information to guide how to run CARLA in synchronized mode.
-    </li>
-  </ul>  
-</details>
-<a href="#table-of-contents">Back to top</a>
-
-# Advanced topics in CARLA
-The work in this area involves advanced topics in CARLA, including how to import a customized map into CARLA etc.  
-<details closed> 
-  <summary> Click to see/unsee </summary>
-  <ul>
-    <li>
-      <a href="https://github.com/ivsg-psu/DrivingSimulators_VirtualEnvironment_ImportMapIntoCARLA">
-     How to import a customized map into CARLA
-      </a>
-      <br>
-    The work in this area involves information to guide how to import a customized map into CARLA.
-    </li>
-  </ul>
-</details>
-<a href="#table-of-contents">Back to top</a>
-
-# Testing the limits of CARLA
-The work in the area includes tests to check the limits of CARLA, including the finest time measurements in CARLA, repeatability tests in CARLA etc. 
-<details closed> 
-  <summary> Click to see/unsee </summary>
-  <ul>
-    <li>
-      <a href="https://github.com/ivsg-psu/DrivingSimulators_VirtualEnvironment_ImportMapIntoCARLA">
-     Testing the finest time measurements in CARLA
-      </a>
-      <br>
-    The work in this area involves information of testing the finest time measurements in CARLA.
-    </li>
-    <li>
-      <a href="https://github.com/ivsg-psu/DrivingSimulators_VirtualEnvironment_ImportMapIntoCARLA">
-     Testing the repeatability in CARLA
-      </a>
-      <br>
-    The work in this area involves information of repeatability tests in CARLA
-    </li>
-  </ul>
-</details>
-<a href="#table-of-contents">Back to top</a>
 
 ---
 This wiki is created by Wushuang Bai (wxb41@psu.edu). If you have any questions, please feel free to contact him. 
