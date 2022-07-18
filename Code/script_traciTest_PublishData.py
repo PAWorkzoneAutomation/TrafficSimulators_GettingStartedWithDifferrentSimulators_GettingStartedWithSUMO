@@ -2,7 +2,13 @@
 # This is a simple example to demonstrate how to talk with SUMO using python API through traci module, get the simulation data, and print out the data live. 
 # Author: Wushuang
 # Created on: 2022 06 20
+# Revision history:
+# 2022 07 18 added comments to example file
 # For more information, please see https://sumo.dlr.de/docs/TraCI.html#examples
+
+# SUMO example simulation file used in this script: I99.sumocfg 
+# Please see https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/tree/main/Data/I99
+
 
 # These modules are needed to run this script
 from __future__ import absolute_import
@@ -25,6 +31,14 @@ else:
 from sumolib import checkBinary  
 import traci  
 import traci.constants as tc
+
+
+#   __  __       _       
+#  |  \/  |     (_)      
+#  | \  / | __ _ _ _ __  
+#  | |\/| |/ _` | | '_ \ 
+#  | |  | | (_| | | | | |
+#  |_|  |_|\__,_|_|_| |_|   
 
 # First you compose the command line to start either sumo or sumo-gui (leaving out the option which was needed before 0.28.0):
 sumoBinary = "/usr/bin/sumo-gui"
