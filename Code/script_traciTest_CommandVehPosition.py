@@ -4,6 +4,15 @@
 # Created on: 2022 06 24
 # For more information, please see https://sumo.dlr.de/docs/TraCI.html#examples
 
+# Inputs: 
+# commandedX: the X coordinate you want to command your vehicle to be at in meters;
+#             format: float
+# commandedY: the Y coordinate you want to command your vehicle to be at in meters;
+#             format: float
+# simulationLength: how many steps you want to simulate?
+#             format: integer
+
+
 # These modules are needed to run this script
 from __future__ import absolute_import
 from __future__ import print_function
