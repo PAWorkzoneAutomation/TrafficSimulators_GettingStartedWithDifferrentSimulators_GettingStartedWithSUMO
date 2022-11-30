@@ -25,6 +25,10 @@ Welcome to the GettingStartedWithSUMO wiki! The goal of this wiki is to get user
         <a href="#talking-with-external-programs">Talking with external programs</a>
         The work in this area involves work using external programs, including how to talk with external programs using API, how to command an AV at a position, how to command a trajectory to an AV, how to command a trajectory to an AV etc. 
     </li>    
+    <li>
+        <a href="#simulating-construction-scenarios">Simulating construction zones</a>
+        The work in this area involves work to simulate construction scenarios, as specified by the PennDOT project deployment plan. 
+    </li>    
   </ol>
 </details>
 
@@ -107,7 +111,7 @@ The work in this area involves work to simulate construction scenarios, as speci
   <summary> Click to see/unsee </summary>
   <ul>
     <li>
-      <a href="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/How%20to%20talk%20to%20SUMO%20through%20python%20API.pptx">
+      <a href="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/Simulating%20test%20track%20in%20SUMO.pptx">
     Simulating a traffic flow on Penn State test track. 
       </a>
       <br>
