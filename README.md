@@ -101,6 +101,22 @@ The work in this area involves work using external programs, including how to ta
 </details>
 <a href="#table-of-contents">Back to top</a>
 
+# Simulating construction scenarios
+The work in this area involves work to simulate construction scenarios, as specified by the PennDOT project deployment plan. 
+<details closed> 
+  <summary> Click to see/unsee </summary>
+  <ul>
+    <li>
+      <a href="https://github.com/ivsg-psu/TrafficSimulators_GettingStartedWithDifferrentSimulators_GettingStartedWithSUMO/blob/main/Documents/How%20to%20talk%20to%20SUMO%20through%20python%20API.pptx">
+    Simulating a traffic flow on Penn State test track. 
+      </a>
+      <br>
+    The work in this area involves information to guide how to simulate a traffic flow on Penn State test track. 
+    </li>
+   
+  </ul>
+</details>
+<a href="#table-of-contents">Back to top</a>
 
 ---
 This wiki is created by Wushuang Bai (wxb41@psu.edu). If you have any questions, please feel free to contact him. 

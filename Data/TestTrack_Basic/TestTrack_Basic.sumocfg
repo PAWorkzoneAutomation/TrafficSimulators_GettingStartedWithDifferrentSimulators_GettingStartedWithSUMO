@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-30 17:24:56 by Eclipse SUMO GUI Version 1.13.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="TestTrack_Basic.net.xml"/>
+        <route-files value="TestTrack_Basic.rou.xml"/>
+        <step-length value="0.01"/>
+    </input>
+
+</configuration>
